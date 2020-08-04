@@ -5,5 +5,7 @@ puts "The order of rainbow's colors are: R: #{colors[0]}, O: #{colors[1]}, Y: #{
 end
 
 
-
+def display_rainbow(color_list)
+  puts "R: #{color_list[0]}, O: #{color_list[1]}, Y: #{color_list[2]}, G: #{color_list[3]}, B: #{color_list[4]}, I: #{color_list[5]}, V: #{color_list[6]}"
+end
 
